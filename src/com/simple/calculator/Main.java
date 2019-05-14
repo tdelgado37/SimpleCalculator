@@ -22,7 +22,7 @@ public class Main {
             System.out.print("Please enter an operation ( a s d m): ");
             String op = in.next();
 
-            MathEquation equation = create(num1, num2, op.charAt(0));
+            MathEquation equation = new MathEquation(num1, num2, op.charAt(0));
             equation.execute();
             System.out.println("The Result = " + equation.getResult());
 
@@ -34,21 +34,6 @@ public class Main {
                     keepGoing =  false;
         }
 
-
-//        for(MathEquation x: equations){
-//            x.execute();
-//            System.out.print("The Result = ");
-//            System.out.println(x.getResult());
-//        }
-
     }
 
-    public static MathEquation create(double leftVal, double rightVal, char opcode){
-        MathEquation equation = new MathEquation();
-        equation.setLeftVal(leftVal);
-        equation.setRightVal(rightVal);
-        equation.setOpcode(opcode);
-
-        return equation;
-    }
 }

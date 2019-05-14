@@ -3,12 +3,24 @@ package com.simple.calculator;
 
 /**
  * Created by Tommy Delgado
+ *
  */
 public class MathEquation {
     private double leftVal;
     private double rightVal;
-    private char opcode;
+    private char opcode = 'a';
     private double result;
+
+
+    private MathEquation( char op){
+        this.opcode = op;
+    }
+
+    public MathEquation(double num1, double num2, char op){
+        this(op);
+        this.leftVal = num1;
+        this.rightVal = num2;
+    }
 
     public double getLeftVal() {
         return leftVal;
