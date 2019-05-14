@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128b2b1b-93a9-448c-b12d-d0d7c6b578cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleCalculator/com/simple/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleCalculator/com/simple/calculator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleCalculator/com/simple/calculator/MathEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleCalculator/com/simple/calculator/MathEquation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/simple/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simple/calculator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/simple/calculator/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simple/calculator/MathEquation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/simple/calculator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="26" column="71" lean-forward="true" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+            <state relative-caret-position="90">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -193,8 +188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simple/calculator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="26" column="71" lean-forward="true" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        <state relative-caret-position="90">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
