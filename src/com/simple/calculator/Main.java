@@ -17,8 +17,8 @@ public class Main {
             System.out.print("Please enter an operation ( a s d m): ");
             String op = in.next();
 
-            MathEquation equation = new MathEquation(num1, num2, op.charAt(0));
-            equation.execute();
+            MathEquation equation = new MathEquation( op.charAt(0));
+            equation.execute(num1, num2);
             System.out.println("The Result = " + equation.getResult());
 
 

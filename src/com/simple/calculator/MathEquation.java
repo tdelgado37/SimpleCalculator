@@ -12,7 +12,7 @@ public class MathEquation {
     private double result;
 
 
-    private MathEquation( char op){
+    public MathEquation( char op){
         this.opcode = op;
     }
 
@@ -65,6 +65,13 @@ public class MathEquation {
                 result = 0.0d;
                 break;
         }
+    }
+
+    public void execute(double leftVal, double rightVal){
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+
+        execute();
     }
 
     public double getResult(){
